@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: grid;
+  border: 1px solid black;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.scoial-media {
+  display: flex;
+  gap: 20px;
+}
