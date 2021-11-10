@@ -12,6 +12,14 @@ footer {
   column-gap: 40px;
 }
 
+footer p {
+  font-size: 14px;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
 .copyright {
   grid-column: 1 / -1;
   /* border: 1px solid red; */
