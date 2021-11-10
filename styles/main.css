@@ -12,8 +12,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: auto 300px;
-  column-gap: 80px;
+  grid-template-columns: 1fr auto;
+  column-gap: 40px;
   row-gap: 80px;
   /* border: 1px solid black; */
   width: 1200px;
@@ -21,7 +21,7 @@ body {
 }
 
 .main-header {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 20px 0;
   grid-column: 1 / -1;
   display: flex;
@@ -36,6 +36,7 @@ body {
 }
 
 .row {
+  /* border: 1px solid black; */
   grid-column: 1/2;
   display: grid;
   row-gap: 40px;
@@ -47,13 +48,22 @@ body {
   align-items: center;
 }
 
-.category {
-  align-self: start;
+.asides {
+  /* align-self: start; */
   width: 300px;
-  background-color: #ddddfd;
+  grid-column: 2;
+  /* grid-row: 2; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aside-box {
+  width: 300px;
+  background-color: #ebebeb;
   padding: 30px 20px;
 }
-.category-header {
+.aside-header {
   margin-bottom: 20px;
   color: #3a414e;
   font-size: 18px;
@@ -61,7 +71,7 @@ body {
   position: relative;
 }
 
-.category-header::after {
+.aside-header::after {
   content: "";
   width: 25%;
   height: 5px;
@@ -93,4 +103,22 @@ body {
 
 .category-link:hover {
   color: #ffb938;
+}
+
+.subscribe-input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.subscribe-button {
+  padding: 15px;
+  background: #3a414e;
+  color: #ffb938;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
