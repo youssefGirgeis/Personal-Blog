@@ -1,0 +1,35 @@
+.main-header {
+  /* border: 1px solid black; */
+  padding: 20px 0;
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #3a414e; */
+}
+
+.city {
+  color: #ffb938;
+  font-size: 50px;
+}
+
+.header-title {
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.page-links:link,
+.page-links:visited {
+  text-decoration: none;
+  color: #ffb938;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.page-links:hover {
+  color: #797979;
+}
