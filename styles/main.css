@@ -18,6 +18,7 @@ body {
   /* border: 1px solid black; */
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .main-header {
@@ -37,8 +38,8 @@ body {
 
 .row {
   /* border: 1px solid black; */
-  grid-column: 1/2;
   display: grid;
+  grid-column: 1;
   row-gap: 40px;
 }
 
@@ -75,7 +76,7 @@ body {
   content: "";
   width: 25%;
   height: 5px;
-  background: orange;
+  background: #ffb938;
   position: absolute;
   top: 28px;
   display: block;
@@ -121,4 +122,32 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.5px;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navigation-btns {
+  grid-column: 1 / -1;
+}
+
+.page-btn {
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.page-btn:hover {
+  background: #ffb938;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navigation-list li:nth-child(2) .page-btn {
+  background: #ffb938;
+  color: #fff;
 }
