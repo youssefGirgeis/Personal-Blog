@@ -14,7 +14,7 @@ body {
   display: grid;
   grid-template-columns: 1fr auto;
   column-gap: 40px;
-  row-gap: 80px;
+  row-gap: 40px;
   /* border: 1px solid black; */
   width: 1200px;
   margin: 0 auto;
@@ -28,12 +28,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* background: #3a414e; */
+}
+
+.city {
+  color: #ffb938;
+  font-size: 50px;
+}
+
+.header-title {
+  letter-spacing: 1px;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
   gap: 20px;
+}
+
+.page-links:link,
+.page-links:visited {
+  text-decoration: none;
+  color: #ffb938;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.page-links:hover {
+  color: #797979;
 }
 
 .row {
@@ -45,8 +66,31 @@ body {
 
 .blog-row {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
+}
+
+.blog-image {
+  width: 400px;
+  height: auto;
+}
+
+.landing {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.landing-text {
+  position: absolute;
+  left: 180px;
+  top: 100px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.landing-img {
+  width: 100%;
+  height: auto;
 }
 
 .asides {
@@ -93,24 +137,27 @@ body {
   /* padding: 0 10px; */
 }
 
+.category-title {
+  color: #ffb938;
+}
 .category-link:link {
   display: flex;
   text-decoration: none;
   justify-content: space-between;
   align-items: center;
-  color: #797979;
   font-size: 14px;
 }
 
-.category-link:hover {
-  color: #ffb938;
-}
+/* .category-link:hover {
+  color: #797979;
+} */
 
 .subscribe-input {
   display: block;
   margin-bottom: 10px;
   padding: 15px;
   width: 100%;
+  border: 1px solid #ebebeb;
 }
 
 .subscribe-button {
@@ -122,6 +169,12 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.5px;
+  border-radius: 10px;
+}
+
+.subscribe-button:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 .navigation-list {

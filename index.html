@@ -16,21 +16,26 @@
   <body>
     <div class="container">
       <header class="main-header">
-        <h1>ReadCity</h1>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Articles</a></li>
-            <li><a href="">Category</a></li>
-            <li><a href="">Pages</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+        <h1 class="header-title">
+          <span class="read">Read</span><span class="city">City</span>
+        </h1>
+        <nav class="nav-links">
+          <a class="page-links" href="#">Home</a>
+          <a class="page-links" href="#">Articles</a>
+          <a class="page-links" href="#">Category</a>
+          <a class="page-links" href="#">Pages</a>
+          <a class="page-links" href="#">Contact</a>
         </nav>
       </header>
 
+      <div class="landing">
+        <h2 class="landing-text">Amazing Cities Around the World</h2>
+        <img class="landing-img" src="images/canada.jpg" alt="landing image" />
+      </div>
+
       <div class="row">
         <div class="blog-row">
-          <img src="images/newyork.jpg" alt="" />
+          <img class="blog-image" src="images/newyork.jpg" alt="" />
           <div class="blog-details">
             <h2>More than 800 languages are spoken in New York City</h2>
             <div class="share">
@@ -44,7 +49,7 @@
         </div>
 
         <div class="blog-row">
-          <img src="images/toronto.jpg" alt="" />
+          <img class="blog-image" src="images/toronto.jpg" alt="" />
           <div class="blog-details">
             <h2>More than 800 languages are spoken in New York City</h2>
             <div class="share">
@@ -57,7 +62,7 @@
           </div>
         </div>
         <div class="blog-row">
-          <img src="images/madrid.jpg" alt="" />
+          <img class="blog-image" src="images/madrid.jpg" alt="" />
           <div class="blog-details">
             <h2>More than 800 languages are spoken in New York City</h2>
             <div class="share">
@@ -73,13 +78,17 @@
       </div>
 
       <div class="asides">
-      <aside class="aside-box">
-        <h4 class="aside-header">Subscribe to our Newsletter</h4>
-        <div>
-          <input class="subscribe-input" type="text" placeholder="Enter email address">
-          <button class="subscribe-button" type="submit">Subscribe</button>
-        </div>
-      </aside>
+        <aside class="aside-box">
+          <h4 class="aside-header">Subscribe to our Newsletter</h4>
+          <div>
+            <input
+              class="subscribe-input"
+              type="text"
+              placeholder="Enter email address"
+            />
+            <button class="subscribe-button" type="submit">Subscribe</button>
+          </div>
+        </aside>
 
         <aside class="aside-box">
           <h4 class="aside-header">Category</h4>
@@ -87,50 +96,49 @@
             <li class="category-item">
               <a href="#" class="category-link">
                 <p class="category-title">Modern</p>
-                <p>(05)</p>
+                <p class="category-title">(05)</p>
               </a>
             </li>
             <li class="category-item">
               <a href="#" class="category-link">
                 <p class="category-title">Anceient</p>
-                <p>(10)</p>
+                <p class="category-title">(10)</p>
               </a>
             </li>
             <li class="category-item">
               <a href="#" class="category-link">
                 <p class="category-title">Nature</p>
-                <p>(18)</p>
+                <p class="category-title">(18)</p>
               </a>
-            </li class="category-item">
+            </li>
             <li class="category-item">
               <a href="#" class="category-link">
                 <p class="category-title">Shopping</p>
-                <p>(07)</p>
+                <p class="category-title">(07)</p>
               </a>
-            </li class="category-item">
-            <li  class="category-item">
+            </li>
+            <li class="category-item">
               <a href="#" class="category-link">
                 <p class="category-title">Summer</p>
-                <p>(11)</p>
+                <p class="category-title">(11)</p>
               </a>
             </li>
           </ul>
         </aside>
-    </div>
+      </div>
 
-    <div class="navigation-btns">
-      <ul class="navigation-list">
-        <li><button class="page-btn"><</button></li>
-        <li><button class="page-btn">1</button></li>
-        <li><button class="page-btn">2</button></li>
-        <li><button class="page-btn">3</button></li>
-        <li><button class="page-btn">4</button></li>
-        <li><button class="page-btn">5</button></li>
-        <li><button class="page-btn">></button></li>
-      </ul>
+      <div class="navigation-btns">
+        <ul class="navigation-list">
+          <li><button class="page-btn"><</button></li>
+          <li><button class="page-btn">1</button></li>
+          <li><button class="page-btn">2</button></li>
+          <li><button class="page-btn">3</button></li>
+          <li><button class="page-btn">4</button></li>
+          <li><button class="page-btn">5</button></li>
+          <li><button class="page-btn">></button></li>
+        </ul>
+      </div>
     </div>
-    </div>
-
 
     <footer>
       <div class="about">
