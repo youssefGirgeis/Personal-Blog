@@ -1,0 +1,111 @@
+.asides {
+  /* align-self: start; */
+  width: 300px;
+  grid-column: 2;
+  /* grid-row: 2; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aside-box {
+  width: 300px;
+  background-color: #ebebeb;
+  padding: 30px 20px;
+}
+.aside-header {
+  margin-bottom: 20px;
+  color: #3a414e;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+
+.aside-header::after {
+  content: "";
+  width: 25%;
+  height: 5px;
+  background: #ffb938;
+  position: absolute;
+  top: 28px;
+  display: block;
+}
+
+.category-list {
+  list-style: none;
+}
+
+.category-item {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 8px;
+  /* padding: 0 10px; */
+}
+
+.category-title {
+  color: #ffb938;
+}
+.category-link:link {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* .category-link:hover {
+    color: #797979;
+  } */
+
+.subscribe-input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+}
+
+.subscribe-button {
+  padding: 15px;
+  background: #3a414e;
+  color: #ffb938;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+}
+
+.subscribe-button:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navigation-btns {
+  grid-column: 1 / -1;
+}
+
+.page-btn {
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.page-btn:hover {
+  background: #ffb938;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navigation-list li:nth-child(2) .page-btn {
+  background: #ffb938;
+  color: #fff;
+}
