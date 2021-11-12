@@ -13,8 +13,17 @@
   font-size: 50px;
 }
 
+.read {
+  color: #222831;
+}
+
 .header-title {
   letter-spacing: 1px;
+}
+
+.main-link:link,
+.main-link:visited {
+  text-decoration: none;
 }
 
 .nav-links {

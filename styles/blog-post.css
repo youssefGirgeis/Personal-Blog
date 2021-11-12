@@ -1,0 +1,45 @@
+.author-info {
+  display: flex;
+  background: #f5f5f5;
+  gap: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.author-img-social {
+  width: 20%;
+}
+
+.author-desc {
+  width: 80%;
+}
+
+.author-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.author-media {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.author-job {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.author-about {
+  font-size: 14px;
+}
+
+.post-title {
+  color: #3a414e;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.8;
+}
